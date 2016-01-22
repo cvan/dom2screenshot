@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <title>dom2screenshot demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="dom2screenshot.js"></script>
+  </head>
+  <body>
+    <style>
+      body {
+        min-height: 550px;
+      }
+
+      main {
+        background: #1abc9c;
+        padding: 20px;
+        text-align: center;
+        width: 200px;
+      }
+
+      main:after {
+        background: url(https://ucarecdn.com/69480d12-1227-4db8-969a-a0ed777d9cdb/) no-repeat;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0.15;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+      }
+
+      main h1 {
+        border-bottom: 4px solid;
+        color: rgba(0,0,0,.25);
+        font: bold 26px Futura, sans-serif;
+        line-height: 28px;
+        padding-bottom: 8px;
+        text-transform: uppercase;
+      }
+
+      main img {
+        display: block;
+        height: 80%;
+        margin: 10px auto;
+        max-height: 95px;
+        max-width: 50%;
+      }
+
+      main .footnote {
+        color: rgba(255,255,255,.75);
+        font: 10px Pacifico, cursive;
+        letter-spacing: 4px;
+        position: absolute;
+        bottom: 8px;
+        left: 0;
+        right: 0;
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico"  rel="stylesheet" type="text/css">
+    <main style="width: 400px; height: 200px">
+      <h1>this is a beautiful thing</h1>
+      <img src="https://ucarecdn.com/de49f3d9-8108-4405-8ce7-93273c649e16/">
+      <p class="footnote">Made with ♡</p>
+    </main>
+  </body>
+</html>
