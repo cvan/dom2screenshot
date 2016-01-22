@@ -1,6 +1,6 @@
 # dom2screenshot
 
-__Client-side solution of taking a screenshot of a DOM element and getting back a CORS'd CDN URL.__
+__Client-side tool for taking a screenshot of a DOM element and getting back a CORS'd CDN URL.__
 
 Prototyping with HTML and CSS is fun and easy! Style your element, and with the click of a button, you'll get back an image URL that is served from a CDN and has CORS headers.
 
